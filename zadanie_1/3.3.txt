@@ -1,0 +1,44 @@
+######### Functions
+### zip
+https://docs.python.org/3/library/functions.html#zip
+Returns a transposition of given lists, allowing for iteration over more than one list at once.
+
+### enumerate
+https://docs.python.org/3/library/functions.html#enumerate
+Returns a given list as a list of tuples with a number at [i][0] and the original value at [i][1],
+thus allowing easy iteration with numbers and the original object at the same time.
+Basically, kind of like zipping the original list and a range of its length.
+
+### sorted
+https://docs.python.org/3/library/functions.html#sorted
+Returns a new sorted list based on the one given as an argument.
+
+
+
+######### Modules
+### math
+https://docs.python.org/3/library/math.html#module-math
+As the name says, has some useful math utilities.
+
+### random
+https://docs.python.org/3/library/random.html#module-random
+As the name says, has some randomization utilities.
+
+### time
+https://docs.python.org/3/library/time.html#module-time
+As the name says, has some time utilities.
+
+
+
+######### Exceptions
+### ValueError
+https://docs.python.org/3/library/exceptions.html#ValueError
+"Raised when an operation or function receives an argument that has the right
+type but an inappropriate value, and the situation is not described by a more
+precise exception such as IndexError."
+Aka, if you expect only a subset of all possible values of a given type and the function gets one of the ones
+you don't expect, you throw this.
+
+### ZeroDivisionError
+https://docs.python.org/3/library/exceptions.html#ZeroDivisionError
+As the name says, is thrown when you try to divide by 0.
