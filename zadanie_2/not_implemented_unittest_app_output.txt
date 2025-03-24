@@ -1,0 +1,45 @@
+FFFFF
+======================================================================
+FAIL: test_calcSquareArea (__main__.TestApp.test_calcSquareArea)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/altr/programming/python-intro/zadanie_2/test_app.py", line 18, in test_calcSquareArea
+    self.assertEqual(a.calcSquareArea(5), 25)
+AssertionError: None != 25
+
+======================================================================
+FAIL: test_filterOutValues (__main__.TestApp.test_filterOutValues)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/altr/programming/python-intro/zadanie_2/test_app.py", line 24, in test_filterOutValues
+    self.assertEqual(a.filterOutValues([1, 2, 3, 4, 5], [1, 3, 5]), [2, 4])
+AssertionError: None != [2, 4]
+
+======================================================================
+FAIL: test_isEven (__main__.TestApp.test_isEven)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/altr/programming/python-intro/zadanie_2/test_app.py", line 41, in test_isEven
+    self.assertTrue(a.isEven(2))
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_isOkEmailAddr (__main__.TestApp.test_isOkEmailAddr)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/altr/programming/python-intro/zadanie_2/test_app.py", line 9, in test_isOkEmailAddr
+    self.assertTrue(a.isOkEmailAddr("abc@def.com"))
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_isPalindrome (__main__.TestApp.test_isPalindrome)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/altr/programming/python-intro/zadanie_2/test_app.py", line 31, in test_isPalindrome
+    self.assertTrue(a.isPalindrome("racecar"))
+AssertionError: None is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)
